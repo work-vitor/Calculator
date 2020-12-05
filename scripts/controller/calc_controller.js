@@ -2,6 +2,7 @@ class CalcController{
 
     constructor(){
 
+        this._git;
         this._operation = [];
         this._locale = "pt-BR";
         this._displayCalcEl = document.querySelector("#display");
